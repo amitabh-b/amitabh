@@ -5,10 +5,36 @@
   text-align: center;
 }
 
-h1{
-  margin-bottom: 0px;
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
 }
 
 p{
   margin: 0px
+}
+
+
+.container{
+  max-width: 700px;
+  text-align: left;
+}
+
+
+.heading-intro h1{
+  margin: 0px;
+}
+
+.heading-intro{
+   text-align: left;
+   margin-bottom: 10px;
+}
+
+.link{
+  color: #38acff;
+  cursor: pointer;
+  &:hover{
+    color: #38acff;
+    text-decoration: underline;
+  }
 }
